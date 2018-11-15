@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Collapsable Node</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css
+	  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+	  <img class ="picture" src="image/avatar10.jpg"/>
+  
+
+</head>
+
+<body>
+
+  <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<h2>BreAnna Smith - Resume</h2>
+
+<div class="container">
+<br /><br />
+<button class="collapsible">
+  <a class="waves-effect waves-light btn" onClick="expandAll();"><i class="material-icons left"></i>Expand All</a>
+  <a class="waves-effect waves-light btn" onClick="collapseAll();"><i class="material-icons left"></i>Collapse All</a>
+<br /><br />
+        <ul class="collapsible" data-collapsible="expandable"> 
+		<li>
+              <div class="collapsible-header"><i class="mdi-navigation-chevron-right">
+ </div>
+ <b></b>
+<button class="collapsible">Contact Information</button>
+<ul><b>
+<p>1203 Raley Street</p>
+<p>Gadsden, Al</p>
+<p>35903</p>
+<b></b>
+<p>bsmith14@una.edu</p>
+<p>256-441-1115</p>
+</b></ul>
+
+<div class="content">
+  <h3></h3>
+
+<p></p>
+<p class="b"><i></i></p>
+<p class="b"></p>
+</div>
+<button class="collapsible">Work Experience</button>
+<div class="content">  
+<p><b> Assistant
+            First – Year Experience, University of North Alabama, March 2018- present
+•	Assist Director with Word, Excel, etc.
+•	Send out informational emails to students
+•	Organize files
+<b></p>
+<p> Cashier
+			Sam's Club
+			(September 2018 - Present)
+</div>
+<button class="collapsible">Education</button>
+<div class="content">
+<p></p>
+  <p><b>University of North Alabama</b>:Bachelor of Business Administration in Computer Information Systems, August 2019 </p>
+  <p><b>Gadsden City High School</b>: Highschool Diploma</p>
+</div>
+<button class="collapsible">Technical Skills/ Tools</button>
+<div class="content">
+  <ul class="b">
+<li>Bootstrap</li>
+<li>GitHub</li>
+<li>Codepen</li>
+<li>HTML</li>
+<li>CSS</li>
+</ul>
+</div
+</body>
+</html>
+ <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+  
+
+</body>
+<b></b>
+<b></b>
+
+<a href="https://github.com/blsmith14">
+ <img class= "picture" src="image/github.png" style="width:42px;height:42px;border:0;">
+</a>
+<b></b>
+<b></b>
+<a href="https://codepen.io/blsmith14/">
+ <img class= "picture" src="image/codepen.png" style="width:42px;height:42px;border:0;">
+</a>
+
+
+</html>

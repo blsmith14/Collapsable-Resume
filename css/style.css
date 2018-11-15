@@ -1,0 +1,55 @@
+.collapsible {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+}
+
+.active, .collapsible:hover {
+    background-color: gray;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+body {background-color: white;}
+p    {font-family: 'Noto Sans', sans-serif;
+
+    font-size: 18px;}
+b {
+    color: indigo
+}
+h1 {
+color: black;
+  border: 15px solid lightgray;
+}
+h2 {
+    color: black;
+}
+h3 {
+    color: black;
+}
+div.a {
+    line-height: normal;
+}
+ul.b {
+    list-style-type: square;
+    font-size: 18px
+}
+.container {
+width: 600px
+}
+.picture
+{
+	width:42px;
+	height:42px;
+	border:0;
+}
